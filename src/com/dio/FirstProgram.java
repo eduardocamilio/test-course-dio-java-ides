@@ -7,10 +7,10 @@ public class FirstProgram {
 	public static void main(String[] args) {
 		
 		Cat cat = new Cat();
-		Books books = new Books();
+		Book book = new Book();
 		
 		System.out.println(cat);
-		System.out.println(books);
+		System.out.println(book);
 		
 		/*int a = 2;
 		int b = 3;
@@ -20,7 +20,7 @@ public class FirstProgram {
 
 }
 
-class Books {
+class Book {
 	private String name;
 	private String npag;
 }
